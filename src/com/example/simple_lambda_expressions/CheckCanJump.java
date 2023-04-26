@@ -1,4 +1,4 @@
-package com.example.lambdaExpression;
+package com.example.simple_lambda_expressions;
 
 public class CheckCanJump implements CheckAnimal{
     @Override
