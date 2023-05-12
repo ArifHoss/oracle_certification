@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b959e9bf-8abd-4322-ad6d-9061a38e2937" name="Changes" comment="String and exceptions">
-      <change afterPath="$PROJECT_DIR$/src/com/example/understanding_strings/UnderstandingEquality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/example/understanding_strings/ImportantStringBuilderMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/understanding_strings/ImportantStringBuilderMethod.java" afterDir="false" />
+    <list default="true" id="b959e9bf-8abd-4322-ad6d-9061a38e2937" name="Changes" comment="created main and test">
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist/PredicateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist_and_lambdaexpression/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist_and_lambdaexpression/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist_and_lambdaexpression/Question52.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist_and_lambdaexpression/Question53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/example/arraylist_and_lambdaexpression/Questions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/arraylist/ListArrayConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/arraylist/ListArrayConversion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +53,30 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UnderstandingEquality">
-    <configuration name="ImportantStringBuilderMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.understanding_strings.ImportantStringBuilderMethod" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.arraylist_and_lambdaexpression" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Questions">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="oracle_certification" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.arraylist.PredicateTest" />
       <module name="oracle_certification" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.understanding_strings.*" />
+          <option name="PATTERN" value="com.example.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.understanding_strings.MethodChaining" />
+    <configuration name="Question52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.arraylist_and_lambdaexpression.Question52" />
       <module name="oracle_certification" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.understanding_strings.*" />
+          <option name="PATTERN" value="com.example.arraylist_and_lambdaexpression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.understanding_strings.StringBuilderExample" />
+    <configuration name="Question53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.arraylist_and_lambdaexpression.Question53" />
       <module name="oracle_certification" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.understanding_strings.*" />
+          <option name="PATTERN" value="com.example.arraylist_and_lambdaexpression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.understanding_strings.StringMethods2" />
+    <configuration name="Questions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.arraylist_and_lambdaexpression.Questions" />
       <module name="oracle_certification" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.understanding_strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnderstandingEquality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.understanding_strings.UnderstandingEquality" />
-      <module name="oracle_certification" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.understanding_strings.*" />
+          <option name="PATTERN" value="com.example.arraylist_and_lambdaexpression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnderstandingEquality" />
-        <item itemvalue="Application.ImportantStringBuilderMethod" />
-        <item itemvalue="Application.StringBuilderExample" />
-        <item itemvalue="Application.MethodChaining" />
-        <item itemvalue="Application.StringMethods2" />
+        <item itemvalue="Application.Questions" />
+        <item itemvalue="Application.Question52" />
+        <item itemvalue="Application.Question53" />
+        <item itemvalue="Application.PredicateTest" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +149,13 @@
       <workItem from="1682319065786" duration="16595000" />
       <workItem from="1682409794440" duration="9869000" />
       <workItem from="1682493262613" duration="46000" />
-      <workItem from="1682510839463" duration="1103000" />
+      <workItem from="1682510839463" duration="1965000" />
+      <workItem from="1682597770962" duration="1265000" />
+      <workItem from="1683031132307" duration="5048000" />
+      <workItem from="1683212191013" duration="2183000" />
+      <workItem from="1683548153136" duration="5756000" />
+      <workItem from="1683642154175" duration="1383000" />
+      <workItem from="1683889626483" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="String and exceptions">
       <created>1682511082634</created>
@@ -148,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682511082634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ImportantStringBuilderMethod">
+      <created>1682512245362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682512245362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +179,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="String and exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="String and exceptions" />
+    <MESSAGE value="ImportantStringBuilderMethod" />
+    <MESSAGE value="created main and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="created main and test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
